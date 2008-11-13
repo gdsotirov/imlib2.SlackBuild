@@ -1,0 +1,11 @@
+imlib2: Imlib2 ()
+imlib2:
+imlib2: Imlib2 is an advanced replacement for libraries like libXpm.  Imlib2
+imlib2: provides many more features with much greater flexibility and speed
+imlib2: than standard libraries, including font rasterization, rotation, RGBA
+imlib2: space rendering and blending, dynamic binary filters, scripting,
+imlib2: and more.
+imlib2: Imlib2 is not a drop-in replacement for Imlib 1.x.
+imlib2:
+imlib2:
+imlib2: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
