@@ -1,0 +1,14 @@
+bzip2 >= 1.0.5
+freetype >= 2.3.5
+glibc-solibs >= 2.7
+libX11 >= 1.1.4
+libXau >= 1.0.3
+libXdmcp >= 1.0.2
+libXext >= 1.0.4
+libid3tag >= 0.15.1b
+libjpeg >= 6b
+libpng >= 1.2.27
+libtiff >= 3.8.2
+libungif >= 4.1.4
+libxcb >= 1.0
+zlib >= 1.2.3
