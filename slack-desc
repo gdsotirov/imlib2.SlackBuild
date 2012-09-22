@@ -1,4 +1,4 @@
-imlib2: Imlib2 ()
+imlib2: Imlib2 (Image handling and conversion library)
 imlib2:
 imlib2: Imlib2 is an advanced replacement for libraries like libXpm.  Imlib2
 imlib2: provides many more features with much greater flexibility and speed
