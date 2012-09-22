@@ -17,7 +17,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 # 
-# $Id: imlib2.SlackBuild,v 1.3 2012/09/22 11:45:32 gsotirov Exp $
+# $Id: imlib2.SlackBuild,v 1.4 2012/09/22 12:00:59 gsotirov Exp $
 #
 
 . ../../slack-package.conf
@@ -63,8 +63,7 @@ CXXFLAGS=$SLKCFLAGS \
             --sysconfdir=/etc \
             --mandir=/usr/man \
             --enable-shared=yes \
-            --enable-static=no \
-            --enable-mmx || exit 4
+            --enable-static=no || exit 4
 
 # Build & install
 make V=1 -j4 || exit 5
