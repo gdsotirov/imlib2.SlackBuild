@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # Slackware build script for imlib2
-# Copyright (C) 2008,2012 Georgi D. Sotirov <gdsotirov@dir.bg>
+# Copyright (C) 2008-2015 Georgi D. Sotirov <gdsotirov@dir.bg>
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -17,13 +17,13 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 # 
-# $Id: imlib2.SlackBuild,v 1.4 2012/09/22 12:00:59 gsotirov Exp $
+# $Id: imlib2.SlackBuild,v 1.5 2015/05/30 12:12:28 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=imlib2
-VERSION=1.4.5
+VERSION=1.4.6
 BUILD=${BUILD:-1}
 ARCH=${ARCH:-i486}
 
@@ -67,7 +67,7 @@ CXXFLAGS=$SLKCFLAGS \
 
 # Build & install
 make V=1 -j4 || exit 5
-make DESTDIR=$PKG install || exit 6
+make V=1 DESTDIR=$PKG install || exit 6
 
 # Prepare
 bin_perms $PKG
