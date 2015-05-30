@@ -17,13 +17,13 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 # 
-# $Id: imlib2.SlackBuild,v 1.5 2015/05/30 12:12:28 gsotirov Exp $
+# $Id: imlib2.SlackBuild,v 1.6 2015/05/30 12:34:38 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=imlib2
-VERSION=1.4.6
+VERSION=1.4.7
 BUILD=${BUILD:-1}
 ARCH=${ARCH:-i486}
 
